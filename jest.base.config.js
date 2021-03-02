@@ -2,12 +2,12 @@
 // https://jestjs.io/docs/en/configuration.html
 
 module.exports = {
-    transform: {
-      '^.+\\.(ts)$': 'ts-jest'
-    },
-    coverageDirectory: './coverage/',
-    collectCoverageFrom: [
-      'src/**/*.ts'
-    ],
-    testMatch: ['<rootDir>/**/__tests__/**/*spec.[jt]s?(x)']
+  transform: {
+    '^.+\\.(ts)$': 'ts-jest'
+  },
+  coverageDirectory: './coverage/',
+  collectCoverageFrom: [
+    'src/**/*.ts'
+  ],
+  testMatch: ['<rootDir>/**/__tests__/**/*spec.[jt]s?(x)']
 };
