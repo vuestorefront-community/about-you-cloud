@@ -10,4 +10,4 @@ module.exports = {
       'src/**/*.ts'
     ],
     testMatch: ['<rootDir>/**/__tests__/**/*spec.[jt]s?(x)']
-  };
+};
