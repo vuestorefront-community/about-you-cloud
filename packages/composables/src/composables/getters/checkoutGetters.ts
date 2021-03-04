@@ -1,7 +1,8 @@
 /* istanbul ignore file */
 
 import { CheckoutGetters} from '@vue-storefront/core';
-import { ShippingMethod } from '@vue-storefront/boilerplate-api/src/types';
+
+export type ShippingMethod = Record<string, unknown>;
 
 // eslint-disable-next-line @typescript-eslint/no-unused-vars
 export const getShippingMethodId = (shippingMethod: ShippingMethod): string => '';
